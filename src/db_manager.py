@@ -1,5 +1,5 @@
 import pymysql
-from db_methods import follow,playlist
+from src.db_methods import follow,playlist
 connection = None
 
 connection = pymysql.connect(host='nemo.cnj8noexhne9.eu-west-1.rds.amazonaws.com',

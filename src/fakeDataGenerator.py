@@ -1,5 +1,5 @@
 import random
-from db_methods import create_user
+from src.db_methods import create_user
 from datetime import date
 import string
 

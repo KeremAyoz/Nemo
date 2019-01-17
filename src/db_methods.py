@@ -1,10 +1,7 @@
 import pymysql
 import datetime as dt
 import time
-
-
-
-from models import *
+from src.models import *
 
 connection = None
 

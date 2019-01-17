@@ -1,7 +1,7 @@
 import os as os
 from flask import Flask, render_template, request, session, redirect
 import pymysql
-import db_methods
+import src.db_methods as db_methods
 import datetime as dt
 
 app = Flask(__name__)
